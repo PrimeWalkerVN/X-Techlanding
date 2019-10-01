@@ -1,0 +1,268 @@
+
+body {
+    background-image: url("images/x-tech-landing.jpg");
+}
+
+.bg-body {
+    border-radius: 5px 5px 5px 5px;
+    width: 1000px;
+    background-color: #f7f7f7;
+    margin: 1% auto;
+    position: relative;
+}
+
+.clear {
+    margin:0;
+    padding: 0;
+    display: block;
+    line-height: 0;
+}
+.page {
+    padding-top: 2rem;
+}
+
+.logo 
+{
+    margin-left: 2rem;
+    display: inline-block;
+    inline-size: 6%;
+}
+
+.text-logo {
+
+    display: inline-block;
+    padding-left: 1rem;
+}
+
+.telenumber{
+    display: inline-block;
+    margin-left: 28rem;
+    margin-right:1rem;
+
+}
+header {
+    margin-top: 2rem;
+}
+header h1 {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+header img {
+    margin-top: 1rem;
+    padding: 0 5rem;
+}
+
+.try-container {
+    margin-top: 1rem;
+    display: inline-flex;
+}
+
+.btn-try{
+    padding: 0 20rem;
+    padding-right: 0px;
+    cursor: pointer;
+    
+}
+.arrow-down-left {
+    padding-top: 1.5rem;
+    text-align: center;
+    font-family: Helvetica;
+    color: #5790dc;
+    font-size: 20px;
+    background: url("./images/arrow1.png") no-repeat right;
+    padding-right: 4rem;
+    background-position-y: 2rem;
+    height: 9rem;
+
+}
+
+
+
+.container-fluid
+{
+    padding: 0 1rem;
+}
+
+.col img {
+    float: left;
+    margin: 1rem;
+    margin-top: 0;
+    display: block;
+    position: relative;
+    padding-bottom: 8rem; 
+}
+
+.col h3 {
+    font-family: Times;
+    font-size: 19px;
+    color: black;
+    font-weight: bold;
+}
+.col p {
+    font-size: 12px;
+    color: #808080;
+    text-align: justify;
+}
+
+
+.testimonials h4 {
+    font-size: 22px;
+    color: #5790dc;
+    font-family: Helvetica;
+    padding: 0 0 10px 0;    
+}
+
+.content-test {
+    background: url(./images/Shape.png) no-repeat;
+    background-size: contain;
+    padding-bottom: 4rem;
+    
+}
+
+.content-test p {
+    padding: 2rem  3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #808080;
+}
+
+.author {
+    padding: 0 30px 1rem 0;
+    padding-right: 3rem;
+    margin: -6rem 1.5rem 0 0;
+    text-align: right;
+    position: relative;
+    z-index: 20;
+    line-height: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #808080;
+}
+
+.btn-try2 {
+    padding: 0;
+    padding-left: 5rem;
+}
+.btn-try2 img {
+    cursor: pointer;
+}
+.arrow-down-right {
+    display: inline-block;
+    margin-top: -3rem;
+    padding-right: 1rem;
+}
+.text-bn2{
+    display: inline-block;
+    font-family: Helvetica;
+    color: #5790dc;
+    font-size: 20px;
+}
+
+.bottom {
+    background: url("./images/bg-bottom.jpg") no-repeat;
+    display: inline-block;
+    width: 100%;
+    height: 12rem;
+    margin-top: 2rem;
+    background-size: cover;
+}
+
+
+.set-position{
+    margin: 2rem;
+}
+
+.left-bottom
+{
+    display: inline-block;
+    width: 50%;
+    margin: 0;
+}
+
+.box-text{
+    display: inline-block;
+    width: 40%;
+}
+
+.box-text h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.box-text p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #1d1d1d;
+}
+
+.left-bottom img {
+    margin-left: 15rem;
+    margin-top: -12rem;
+    display: inline-block;
+    width: 50%;
+    padding-right: 2rem;
+
+}
+
+
+
+.center-bottom{
+    position: absolute;
+    display: inline-block;  
+    width: 20%;
+   
+}
+
+.center-bottom h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.center-bottom p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #1d1d1d;
+}
+
+
+
+.right-bottom{
+    display: inline-block;
+    width: 20%;
+    margin-left: 17rem;
+    position: absolute;
+    overflow: hidden;
+}
+.right-bottom h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer {
+    background: url("./images/bg-footer.jpg") no-repeat;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+    background-size: cover;
+}
+
+.left-footer {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #1d1d1d;
+}
+
+.right-footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #1d1d1d;
+    display: inline;
+    padding-left: 34rem;
+
+}
